@@ -1,0 +1,2 @@
+bool filter=lfs diff=lfs merge=lfs -text
+char filter=lfs diff=lfs merge=lfs -text
