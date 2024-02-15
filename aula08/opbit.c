@@ -10,12 +10,10 @@
  */
 
 int main(void){
-  int a = 0b1010;   
-  int b = 0b011111111111111111111111111111111;
+  int a = 38;
+  int chave = 321;
 
-  // 0 falso
-
-  printf("\nO resultado e: %d\n",  a);
+  printf("\nO resultado e: %d\n", a ^ chave);
 
   return 0;
 
